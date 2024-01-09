@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.school_identity{
+    display: flex;
+    margin-top: 2em;
+    position: relative;
+    right: 2em;
+}
+.school_logo{
+    max-width: 5em;
+    height: -2em;
+    position: relative;
+    left: 4em;
+}
+.school_name{
+    font-size: 1.8em;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 2em;
+    top: 0.3em;
+}
+span{
+    position: relative;
+    top: 1.3em;
+    right: 13em;
+    font-size: 0.6em;
+    color: #000000;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav_links{
+    display: flex;
+    gap: 1.4em;
+    position: relative;
+    left: 32em;
+    font-size: 1.4em;
+    bottom: 2.8em;
+}
+.link{
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav_link1{
+    color: #a5c353;
+}
+.nav_link2{
+    color: #ff2384;
+}
+.nav_link3{
+    color: #84e6ff;
+}
+.nav_link4{
+    color: #5d58f0;
+}
+.nav_link5{
+    color: #f6bd00;
+}
+.nav_link6{
+    color: #8800ff;
+}
+.servive_list{
+    background-image: url(./images/slider3-bg.png);
+    height: 120vh;
+    margin-top: -8em;
+}
+ul{
+    position: relative;
+    left: 56.6em;
+}
+li{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.fun_tag{
+    position: relative;
+    top: 3em;
+    left: 28em;
+    font-size: 2em;
+    z-index: 1;
+    font-weight: bold;
+}
+.creative_tag{
+    position: relative;
+    top: 2em;
+    left: 18.8em;
+    font-size: 3em;
+    z-index: 1;
+    color: #cc081f;
+}
+.orange_img{
+    position: relative;
+    left: 47em;
+}
+.pink_img{
+    position: relative;
+    left: 54em;
+    top: 29em;
+}
+.learn_more{
+    position: relative;
+    left: 65em;
+    top: 4em;
+    background-color: #000000;
+    color: white;
+    border-radius: 1em;
+    padding: 1.3em;
+    font-size: 1em;
+}
+.learn_more:hover{
+    background-color: #ec274f;
+}
+.over_all{
+    background-image: url(./images/bar.png);
+    background-repeat: repeat;
+    background-color: rgba(132, 230, 255, 0.5);
+    height: 70vh;
+}
+.team_section{
+    display: flex;
+    gap: 8em;
+    
+    position: relative;
+    right: 7.5em;
+    top: -8em;
+}
+.same_p_tag{
+    font-size: 1.3em;
+    font-weight: 700;
+    position: relative;
+    right: 0.5em;
+    top: 1em;
+}
+.team{
+    position: relative;
+    left: 0.5em;
+}
+.kid{
+    position: relative;
+    right: 0.8em;
+}
+.Alumni{
+    position: relative;
+    left: 0em;
+}
+.Amenities{
+    position: relative;
+    left: 0em;
+}
+.img_set{
+    max-width: 10vw;
+    border-radius: 5em;
+}
+.team_div{
+    position: relative;
+    top: 15em;
+    left: 20em;
+}
+.team_div:hover{
+    background-color: white;
+    border-radius: 1em;
+    width: 15vw;
+    height: 39vh;
+    padding: 1.5em;
+    cursor: pointer;
+}
+.team_img{
+    border: 2em solid #ffa355;
+}
+.kid_img{
+    border: 2em solid #b71b1c;
+}
+.Alumni_img{
+    border: 2em solid #2196f3;
+}
+.Amenity_img{
+    border: 2em solid #a1bd4c;
+}
+.school_central{
+    background-image: url(./images/icon-box-shape-bg2.png);
+    height: 130vh;
+}
+.school_division{
+    font-size: 3em;
+    font-weight: bold;
+    position: relative;
+    top: 1em;
+    left: 10em;
+}
+.school_div{
+    display: flex;
+    margin-top: 15em;
+    display: flex;
+    gap: 2em;
+    margin: 2em;
+    position: relative;
+    top: 5em;
+}
+.school_img{
+    max-width: 25vw;
+    height: 40vh;
+}
+.school_pic{
+    background-color: #eda265;
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+
+}
+.chreche{
+    font-size: 2em;
+    font-weight: 600;
+}
+.primary{
+    font-size: 2em;
+     font-weight: 600;
+}
+.highSchool{
+    font-size: 2em;
+    font-weight: 600;
+}
+.paragraph{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 1em;
+}
+.school_infor{
+    display: flex;
+}
+.teachers_img{
+    max-width: 40vw;
+    margin: 2em;
+}
+.school_reason{
+    font-size: 3em;
+}
