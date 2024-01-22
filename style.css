@@ -73,6 +73,7 @@ span{
 .servive_list{
     background-image: url(./images/slider3-bg.png);
     height: 120vh;
+    width: 100%;
     margin-top: -8em;
 }
 ul{
@@ -212,7 +213,7 @@ li{
     height: 40vh;
 }
 .school_pic{
-    background-color: #eda265;
+    background-color: #393762;
     height: 80vh;
     align-items: center;
     text-align: center;
@@ -242,7 +243,12 @@ li{
     display: flex;
     gap: em;
     margin-top: -2em;
-    background-color: #605bee;
+    /* background-color: #605bee; */
+    background-color: #393762;
+}
+p{
+    color: #ca9946;
+    font-weight: bold;
 }
 .teachers_img{
     max-width: 40vw;
@@ -281,6 +287,7 @@ li{
     border-radius: 2em;
     padding: 2em;
     cursor: pointer;
+    color: black;
 }
 .para:hover{
     background-color: #eb3335;
@@ -299,7 +306,7 @@ li{
     height: 115vh;
     position: relative;
     top: 5em;
-    left: 2em;
+    left: 2.5em;
     border-radius: 1em;
     border-bottom: 16em solid #f96f68;
 }
@@ -311,7 +318,7 @@ li{
     height: 115vh;
     position: relative;
     top: 5em;
-    left: 2em;
+    left: 4.5em;
     padding: 2em;
 }
 .enquire_input{
@@ -327,8 +334,445 @@ li{
     font-size: 2em;
 }
 
+.Central_Choose_Us{
+    display: flex;
+    /* margin: 2em; */
+    margin-top: 5em;
+    font-family: "Jost", Sans-serif;
+}
+h3{
+    font-size: 1.4em;
+}
+.first_h3{
+    position: relative;
+    top: 1em;
+    right: 13.9em;
+    color: white;
+    white-space: nowrap;
+    z-index: 2;
+    font-size: 2em;
+    font-weight: bold;
+}
+.second_h3{
+    white-space: nowrap;
+}
+.third_h3{
+    color: chartreuse;
+}
+.fourth_h3{
+    color: chartreuse;
+}
+.fifth_h3{
+    color: chartreuse;
+}
+.sub_choose_us{
+    display: flex;
+    gap: 2em;
+    margin-top: 1em;
+}
+.color_bar_img{
+    width: 70vw;
+    height: 110vh;
+    border: 4px solid chartreuse;
+    border-radius: 2em;
+    background-color: #393762;
+    z-index: 1;
+    position: relative;
+    left: 2em;
+}
+.before_second_choose_us{
+    display: flex;
+    margin-top: 7em;
+    font-size: 1em;
+    gap: 4em;
+    position: relative;
+    right: 53em;
+    z-index: 1;
+    color: chartreuse;
+}
+.second_sub_choose_us{
+    display: flex;
+    gap: 5em;
+    position: relative;
+    top: 23em;
+    right: 87.5em;
+    z-index: 1;
+}
+.first_school_explain{
+    color: white;
+    line-height: 1.5em;
+    margin-top: 1em;
+}
+.second_school_explain{
+    color: white;
+    line-height: 1.5em;
+    margin-top: 1em;
+}
+.lab_img{
+    position: relative;
+    right: 81em;
+    top: 1em;
+    border-radius: 2em;
+    height: 110vh;
+    width: 45vw;
+    border: 4px solid chartreuse;
+}
 
-@media screen and (max-width: 768px){
+.Holistic_Edu{
+    background-image: url(./images/HighSchool.jpg);
+    margin-top: 7em;
+    height: 100vh;
+}
+h4{
+    background-color: #f96f68;
+    height: 20vh;
+    width: 40vw;
+    color: yellow;
+    position: relative;
+    left: 20em;
+    bottom: 5.4em;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    text-justify: inter-cluster;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 2em;
+    padding-bottom: 4em;
+}
+
+.general_messaging{
+    display: flex;
+    margin: 3em;
+    /* gap: 2em; */
+    position: relative;
+    bottom: 8.5em;
+}
+.get_in_touch_div{
+    background-color: #f96f68;
+    width: 50vw;
+    height: 160vh;
+}
+.touch{
+    color: yellow;
+    font-weight: bold;
+    font-size: 2em;
+}
+.touching{
+    position: relative;
+    top: 1em;
+    right: 1em;
+    white-space: nowrap;
+}
+.second_touching{
+    position: relative;
+    top: 2.9em;
+    right: 7em;
+    font-size: 1.5em;
+}
+.second_touch{
+    color: black;
+    /* background-color: rgb(178, 18, 12); */
+    position: relative;
+    font-weight: bold;
+}
+.add_touch{
+    position: relative;
+    right: 9.4em;
+}
+.send_message_div{
+    background-color: rgba(249, 111, 104, 0.8);
+    width: 50vw;
+}
+.location_img{
+    max-width: 4vw;
+    margin: 2em;
+    border-radius: 1em;
+    /* border: 2px solid black; */
+}
+.location_div{
+    display: flex;
+}
+.web_img{
+    max-width: 9vw;
+    height: 8vh;
+    border-radius: 1em;
+}
+.web_div{
+    display: flex;
+}
+.mail_img{
+    max-width: 4vw;
+    border-radius: 1.1em;
+}
+.div_locate{
+    position: relative;
+    left: 3.8em;
+    top: 3em;
+    background-color: rgb(219, 26, 19);
+    width: 37vw;
+    height: 15vh;
+    gap: 1em;
+    padding: 2em;
+    padding-right: 10em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+}
+.phone_number{
+    position: relative;
+    top: 2.6em;
+    left: 2em;
+    font-size: 2em;
+}
+.first_camp_locate{
+    position: relative;
+    top: 7em;
+    left: 2em;
+}
+.second_camp_locate{
+    position: relative;
+    top: 9em;
+    left: 2em;
+}
+.third_camp_locate{
+    position: relative;
+    top: 9em;
+    left: 2em;
+}
+.web_div{
+    position: relative;
+    top: 17em;
+    left: 4em;
+    display: flex;
+    gap: .5em;
+}
+.web_touch{
+    font-size: 1.7em;
+}
+.mail_div{
+    display: flex;
+    gap: .5em;
+    position: relative;
+    top: 18em;
+    left: 4em;
+}
+.mail_touch{
+    font-size: 1.5em;
+}
+.div_message{
+    display: flex;
+    gap: 1em;
+    position: relative;
+    top: 3em;
+    left: 4em;
+    background-color:  rgba(219, 26, 19, 0.9);
+    border-radius: 1em;
+    padding: 2em;
+    padding-left: 3em;
+    width: 31em;
+    height: 5.8em;
+}
+.message_img{
+    max-width: 7vw;
+    height: 8vh;
+    border-radius: .5em;
+}
+.name_div{
+    display: flex;
+    gap: 1em;
+    position: relative;
+    top: 5.5em;
+    left: 4.1em;
+}
+.email_div{
+    position: relative;
+    top: 8em;
+    left: 4em;
+}
+.comment_div{
+    position: relative;
+    top: 7em;
+    left: 4em;
+}
+.deButton{
+    position: relative;
+    top: 14em;
+    left: 2.7em;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: .5em;
+    width: 40.1vw;
+    height: -10vh;
+    border: none;
+    border-radius: 1em;
+}
+.deButton:hover{
+    background-color: #b71b1c;
+    color: white;
+}
+input{
+    outline: none;
+    border: none;
+    border-radius: .5em;
+}
+.name_input{
+    height: 5vh;
+    width: 17vw;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+.second_name_input{
+    height: 5vh;
+    width: 17vw;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+.label_tag{
+    font-size: 1.4em;
+}
+.email_input{
+    width: 35.2vw;
+    height: 8vh;
+    font-size: 1.5em;
+}
+.textarea_box{
+    position: relative;
+    top: 13em;
+    border-radius: 1em;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    width: 23.8vw;
+    height: 30vh;
+}
+.deSpan{
+    color: #ff0800;
+    font-size: 1em;
+    font-weight: bold;
+    position: relative;
+    right: -0.9em;
+    bottom: 7em;
+}
+
+.ending_div{
+    display: flex;
+    background-color: #fdae00;
+    height: 100vh;
+    margin-top: -8em;
+}
+.evergreen_div{
+    display: flex;
+    gap: 1em;
+    margin-top: 3em;
+}
+.logo{
+    border-radius: 1em;
+}
+.school{
+    white-space: nowrap;
+}
+.spaning{
+    position: relative;
+    left: 4em;
+    top: -1em;
+    color: blue;
+    font-weight: bold;
+}
+.cedar_para{
+    position: relative;
+    left: 5em;
+    top: 4em;
+    white-space: nowrap;
+    color: white;
+    font-size: 1.2em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cedar_span{
+    position: relative;
+    right: 0.5em;
+    top: -0.001em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.social_img{
+    position: relative;
+    top: 15em;
+    left: 5em;
+    display: flex;
+    gap: 3em;
+}
+
+.info_div{
+    display: flex;
+    gap: 1.5em;
+    flex-direction: column;
+    position: relative;
+    left: 15em;
+    top: 1.7em;
+}
+a{
+    text-decoration: none;
+}
+.school_about{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.useful_para{
+    font-size: 1.7em;
+    position: relative;
+    left: 8.7em;
+    color: #0000FF;
+}
+.link_div{
+    position: relative;
+    /* left: 2em; */
+    top: 6em;
+}
+.in_torch_div{
+    position: relative;
+    left: 17em;
+    display: block;
+    gap: 3em;
+}
+.get_para{
+    position: relative;
+    left: 2em;
+    top: 2em;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #0000FF;
+}
+.campus_one{
+    position: relative;
+    top: 3em;
+}
+.campuses{
+    position: relative;
+    left: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+}
+.all_reserve{
+    background-color: #0000FF;
+    height: 17vh;
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+@media only screen and (max-width: 768px){
     .servive_list{
         height: 50px;
     }
